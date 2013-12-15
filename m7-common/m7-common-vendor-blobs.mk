@@ -16,17 +16,67 @@
 
 PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/bin/akmd:/system/bin/akmd \
-        vendor/htc/m7-common/proprietary/bin/charging:/system/bin/charging \
         vendor/htc/m7-common/proprietary/bin/ks:/system/bin/ks \
-        vendor/htc/m7-common/proprietary/bin/mm-pp-daemon:/system/bin/mm-pp-daemon \
         vendor/htc/m7-common/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
         vendor/htc/m7-common/proprietary/bin/mpdecision:/system/bin/mpdecision \
-        vendor/htc/m7-common/proprietary/bin/netmgrd:/system/bin/netmgrd \
-        vendor/htc/m7-common/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/m7-common/proprietary/bin/thermald:/system/bin/thermald \
-        vendor/htc/m7-common/proprietary/bin/zchgd:/system/bin/zchgd \
+        vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA_l.speaker:/system/etc/tfa/deftcoefA_l.speaker \
+        vendor/htc/m7-common/proprietary/etc/tfa/deftcoefA.speaker:/system/etc/tfa/deftcoefA.speaker \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm.config:/system/etc/tfa/fm.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm.eq:/system/etc/tfa/fm.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm_l.config:/system/etc/tfa/fm_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm_l.eq:/system/etc/tfa/fm_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm_l.preset:/system/etc/tfa/fm_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/fm.preset:/system/etc/tfa/fm.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats.config:/system/etc/tfa/playbackbeats.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats.eq:/system/etc/tfa/playbackbeats.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats_l.config:/system/etc/tfa/playbackbeats_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats_l.eq:/system/etc/tfa/playbackbeats_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats_l.preset:/system/etc/tfa/playbackbeats_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/playbackbeats.preset:/system/etc/tfa/playbackbeats.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback.config:/system/etc/tfa/playback.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback.eq:/system/etc/tfa/playback.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback_l.config:/system/etc/tfa/playback_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback_l.eq:/system/etc/tfa/playback_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback_l.preset:/system/etc/tfa/playback_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/playback.preset:/system/etc/tfa/playback.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder.config:/system/etc/tfa/recorder.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder.eq:/system/etc/tfa/recorder.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder_l.config:/system/etc/tfa/recorder_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder_l.eq:/system/etc/tfa/recorder_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder_l.preset:/system/etc/tfa/recorder_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/recorder.preset:/system/etc/tfa/recorder.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring.config:/system/etc/tfa/ring.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring.eq:/system/etc/tfa/ring.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring_l.config:/system/etc/tfa/ring_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring_l.eq:/system/etc/tfa/ring_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring_l.preset:/system/etc/tfa/ring_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/ring.preset:/system/etc/tfa/ring.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/tfa9887_l.patch:/system/etc/tfa/tfa9887_l.patch \
+        vendor/htc/m7-common/proprietary/etc/tfa/tfa9887_l.speaker:/system/etc/tfa/tfa9887_l.speaker \
+        vendor/htc/m7-common/proprietary/etc/tfa/tfa9887.patch:/system/etc/tfa/tfa9887.patch \
+        vendor/htc/m7-common/proprietary/etc/tfa/tfa9887.speaker:/system/etc/tfa/tfa9887.speaker \
+        vendor/htc/m7-common/proprietary/etc/tfa/video.config:/system/etc/tfa/video.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/video.eq:/system/etc/tfa/video.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/video_l.config:/system/etc/tfa/video_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/video_l.eq:/system/etc/tfa/video_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/video_l.preset:/system/etc/tfa/video_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/video.preset:/system/etc/tfa/video.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice.config:/system/etc/tfa/voice.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice.eq:/system/etc/tfa/voice.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice_l.config:/system/etc/tfa/voice_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice_l.eq:/system/etc/tfa/voice_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice_l.preset:/system/etc/tfa/voice_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/voice.preset:/system/etc/tfa/voice.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/voiceWB.eq:/system/etc/tfa/voiceWB.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voiceWB_l.eq:/system/etc/tfa/voiceWB_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip.config:/system/etc/tfa/voip.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip.eq:/system/etc/tfa/voip.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip_l.config:/system/etc/tfa/voip_l.config \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip_l.eq:/system/etc/tfa/voip_l.eq \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip_l.preset:/system/etc/tfa/voip_l.preset \
+        vendor/htc/m7-common/proprietary/etc/tfa/voip.preset:/system/etc/tfa/voip.preset \
         vendor/htc/m7-common/proprietary/etc/agps_rm:/system/etc/agps_rm \
-        vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
         vendor/htc/m7-common/proprietary/etc/hldm.bin:/system/etc/hldm.bin \
         vendor/htc/m7-common/proprietary/etc/hltof.bin:/system/etc/hltof.bin \
         vendor/htc/m7-common/proprietary/etc/hltrd.bin:/system/etc/hltrd.bin \
@@ -67,7 +117,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zoe.so:/system/lib/libchromatix_vd6869_zoe.so \
         vendor/htc/m7-common/proprietary/lib/libchromatix_vd6869_zsl.so:/system/lib/libchromatix_vd6869_zsl.so \
         vendor/htc/m7-common/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
-        vendor/htc/m7-common/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
         vendor/htc/m7-common/proprietary/lib/libhtccamera_yushaniiproc.so:/system/lib/libhtccamera_yushaniiproc.so \
         vendor/htc/m7-common/proprietary/lib/libHTC_DIS.so:/system/lib/libHTC_DIS.so \
         vendor/htc/m7-common/proprietary/lib/libimage-jpeg-dec-omx-comp.so:/system/lib/libimage-jpeg-dec-omx-comp.so \
@@ -85,35 +134,32 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_rubik.so:/system/lib/libmmcamera_rubik.so \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_statsproc31.so:/system/lib/libmmcamera_statsproc31.so \
         vendor/htc/m7-common/proprietary/lib/libmmcamera_wavelet_lib.so:/system/lib/libmmcamera_wavelet_lib.so \
-        vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/lib/libmmipl.so:/system/lib/libmmipl.so \
         vendor/htc/m7-common/proprietary/lib/libmmjpeg.so:/system/lib/libmmjpeg.so \
-        vendor/htc/m7-common/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
-        vendor/htc/m7-common/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
         vendor/htc/m7-common/proprietary/lib/libmmstillomx.so:/system/lib/libmmstillomx.so \
         vendor/htc/m7-common/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
-        vendor/htc/m7-common/proprietary/lib/libOlaEngineNew.so:/system/lib/libOlaEngineNew.so \
         vendor/htc/m7-common/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
-        vendor/htc/m7-common/proprietary/lib/libyuvimage.so:/system/lib/libyuvimage.so \
+        vendor/htc/m7-common/proprietary/lib/libwriteback.so:/system/lib/libwriteback.so \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
+        vendor/htc/m7-common/proprietary/lib/libgeofence.so:/system/lib/libgeofence.so \
         vendor/htc/m7-common/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
-        vendor/htc/m7-common/proprietary/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libplayback_adreno200.so:/system/lib/egl/libplayback_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/egl/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-        vendor/htc/m7-common/proprietary/lib/libc2d2_a3xx.so:/system/lib/libc2d2_a3xx.so \
-        vendor/htc/m7-common/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
-        vendor/htc/m7-common/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
-        vendor/htc/m7-common/proprietary/lib/libgsl.so:/system/lib/libgsl.so \
-        vendor/htc/m7-common/proprietary/lib/libllvm-a3xx.so:/system/lib/libllvm-a3xx.so \
-        vendor/htc/m7-common/proprietary/lib/libOpenCL.so:/system/lib/libOpenCL.so \
-        vendor/htc/m7-common/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
-        vendor/htc/m7-common/proprietary/lib/libsc-a2xx.so:/system/lib/libsc-a2xx.so \
-        vendor/htc/m7-common/proprietary/lib/libsc-a3xx.so:/system/lib/libsc-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:/system/vendor/lib/egl/libGLESv2_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:/system/vendor/lib/egl/libGLESv2S3D_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:/system/vendor/lib/egl/libq3dtools_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libadreno_utils.so:/system/vendor/lib/libadreno_utils.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libc2d30-a3xx.so:/system/vendor/lib/libc2d30-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libc2d30.so:/system/vendor/lib/libc2d30.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libC2D2.so:/system/vendor/lib/libC2D2.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libgsl.so:/system/vendor/lib/libgsl.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libllvm-a3xx.so:/system/vendor/lib/libllvm-a3xx.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno_sha1.so:/system/vendor/lib/librs_adreno_sha1.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/librs_adreno.so:/system/vendor/lib/librs_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libRSDriver_adreno.so:/system/vendor/lib/libRSDriver_adreno.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libsc-a3xx.so:/system/vendor/lib/libsc-a3xx.so \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.b00:/system/etc/firmware/vidc.b00 \
@@ -122,7 +168,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.b03:/system/etc/firmware/vidc.b03 \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc.mdt:/system/etc/firmware/vidc.mdt \
         vendor/htc/m7-common/proprietary/etc/firmware/vidc_1080p.fw:/system/etc/firmware/vidc_1080p.fw \
-        vendor/htc/m7-common/proprietary/etc/firmware/vidcfw.elf:/system/etc/firmware/vidcfw.elf \
+        vendor/htc/m7-common/proprietary/bin/cir_fw_update:/system/bin/cir_fw_update \
+        vendor/htc/m7-common/proprietary/etc/cir.img:/system/etc/cir.img \
+        vendor/htc/m7-common/proprietary/lib/hw/consumerir.default.so:/system/lib/hw/consumerir.default.so \
+        vendor/htc/m7-common/proprietary/lib/libI420colorconvert.so:/system/lib/libI420colorconvert.so \
+        vendor/htc/m7-common/proprietary/lib/libmm-color-convertor.so:/system/lib/libmm-color-convertor.so \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b00:/system/etc/firmware/hcheck.b00 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b01:/system/etc/firmware/hcheck.b01 \
         vendor/htc/m7-common/proprietary/etc/firmware/hcheck.b02:/system/etc/firmware/hcheck.b02 \
@@ -134,30 +184,17 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b02:/system/etc/firmware/tzapps.b02 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.b03:/system/etc/firmware/tzapps.b03 \
         vendor/htc/m7-common/proprietary/etc/firmware/tzapps.mdt:/system/etc/firmware/tzapps.mdt \
-        vendor/htc/m7-common/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
-        vendor/htc/m7-common/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
-        vendor/htc/m7-common/proprietary/lib/libdsutils.so:/system/lib/libdsutils.so \
-        vendor/htc/m7-common/proprietary/lib/libidl.so:/system/lib/libidl.so \
-        vendor/htc/m7-common/proprietary/lib/libqcci_legacy.so:/system/lib/libqcci_legacy.so \
-        vendor/htc/m7-common/proprietary/lib/libqdi.so:/system/lib/libqdi.so \
-        vendor/htc/m7-common/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_cci.so:/system/lib/libqmi_cci.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_client_qmux.so:/system/lib/libqmi_client_qmux.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_common_so.so:/system/lib/libqmi_common_so.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_csi.so:/system/lib/libqmi_csi.so \
-        vendor/htc/m7-common/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
-        vendor/htc/m7-common/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
-        vendor/htc/m7-common/proprietary/lib/libhtc_rilhook.so:/system/lib/libhtc_rilhook.so \
-        vendor/htc/m7-common/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
-        vendor/htc/m7-common/proprietary/lib/libqc-opt.so:/system/lib/libqc-opt.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/m7-common/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
         vendor/htc/m7-common/proprietary/lib/libimu.so:/system/lib/libimu.so \
         vendor/htc/m7-common/proprietary/lib/libmllite.so:/system/lib/libmllite.so \
         vendor/htc/m7-common/proprietary/lib/libmlplatform.so:/system/lib/libmlplatform.so \
         vendor/htc/m7-common/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/m7-common/proprietary/lib/libmpl_jni.so:/system/lib/libmpl_jni.so \
-        vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0092.0093.hcd \
+        vendor/htc/m7-common/proprietary/lib/libQSEEComAPI.so:/system/lib/libQSEEComAPI.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
+        vendor/htc/m7-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:/system/vendor/lib/libWVStreamControlAPI_L1.so \
+        vendor/htc/m7-common/proprietary/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd:/system/etc/firmware/BCM4335B0_002.001.006.0296.0297.hcd \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_apsta_b0.bin:/system/etc/firmware/fw_bcm4335_apsta_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_b0.bin:/system/etc/firmware/fw_bcm4335_b0.bin \
         vendor/htc/m7-common/proprietary/etc/firmware/fw_bcm4335_p2p_b0.bin:/system/etc/firmware/fw_bcm4335_p2p_b0.bin
